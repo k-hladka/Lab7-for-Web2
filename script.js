@@ -124,6 +124,11 @@ window.addEventListener('load', function () {
     }
 });
 
+document.querySelector('#clear').addEventListener('click', function (){
+    windows.length = 0;
+    localStorage.clear();
+    location.reload();
+});
 function randomColor() {
     let colorsLetters = ['a', 'b', 'c', 'd', 'e', 'f'];
     let color = '';
