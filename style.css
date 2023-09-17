@@ -1,0 +1,13 @@
+.parent {
+    cursor: pointer;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.parent header {
+    border-radius: 5px 5px 0 0;
+    height: 1.5em;
+    text-align: center;
+}
